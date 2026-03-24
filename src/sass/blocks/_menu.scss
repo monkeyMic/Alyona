@@ -10,7 +10,8 @@
     cursor: pointer;
 
     &:hover span {
-        background: $main-color;
+        background-color: $main-color;
+        transition: background-color 0.2s ease 0.1s;
     }
 
     span {
