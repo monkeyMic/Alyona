@@ -8,8 +8,13 @@
     top: 230px;
     left: 50px;
     height: 340px;
+    color: $fonts-color;
 
     &__link {
+        svg path {
+            fill: $fonts-color;
+        }
+
         &:hover {
             svg path {
                 fill: $main-color;
@@ -20,7 +25,7 @@
     &__devider {
         width: 2px;
         height: 70px;
-        background-color: #000000;
+        background-color: $fonts-color;
     }
 
     &__text {
