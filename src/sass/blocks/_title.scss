@@ -14,16 +14,14 @@
         color: $fonts-color;
     }
 
-<<<<<<< HEAD
     &_fs36 {
-=======
-    &__fs36 {
->>>>>>> refs/remotes/origin/main
-        font-size: 36px;
-    }
+        &__fs36 {
+            font-size: 36px;
+        }
 
-    &_fs48 {
-        font-size: 48px;
-        color: $fonts-color;
+        &_fs48 {
+            font-size: 48px;
+            color: $fonts-color;
+        }
     }
 }
