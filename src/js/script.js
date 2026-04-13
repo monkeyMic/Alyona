@@ -9,3 +9,4 @@ hamburger.addEventListener('click', function () {
 closeElement.addEventListener("click", function () {
     menu.classList.remove("active");
 })
+
